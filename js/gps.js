@@ -31,13 +31,13 @@
 
   // Function to handle errors in geolocation
   function handleLocationError(error) {
-    // Swal.fire({
-    //     icon: "error",
-    //     title: `Error getting location: ${error.message}!`,
-    //     text: ` Tips: Please Check Your Location in Settings if it is Turn on and ,The site Setting in your Broswer`,
-    //     footer: '<iframe width="97%" height="auto" src="https://www.youtube.com/embed/4Yt2D5PNiiI?si=7KIeqhiyNcIKlqkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><a href="https://youtu.be/LM6lWvkIVVw?si=BfhzX1mB6Af3FLbQ">Link sa Youtube Tutorial unsaun ayaw mig basula po!thanks</a>'
-    //   });
-    alert('Geolocation is not supported by this browser.');
+    Swal.fire({
+        icon: "error",
+        title: `Error getting location: ${error.message}!`,
+        text: ` Tips: Please Check Your Location in Settings if it is Turn on and ,The site Setting in your Broswer`,
+        footer: '<iframe width="97%" height="auto" src="https://www.youtube.com/embed/4Yt2D5PNiiI?si=7KIeqhiyNcIKlqkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><a href="https://youtu.be/LM6lWvkIVVw?si=BfhzX1mB6Af3FLbQ">Link sa Youtube Tutorial unsaun ayaw mig basula po!thanks</a>'
+      });
+
   }
 
   // Function to move the marker when the map is double-clicked
