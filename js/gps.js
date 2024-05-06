@@ -1,10 +1,10 @@
-   // Initialize the map
-   var map = L.map('map').setView([0, 0], 13);
+ // Initialize the map
+ var map = L.map('map').setView([0, 0], 13);
 
-   // Add the tile layer (you can use different map providers)
-   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-       attribution: '&copy; OpenStreetMap contributors'
-   }).addTo(map);
+ // Add the tile layer (you can use different map providers)
+ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+     attribution: '&copy; OpenStreetMap contributors'
+ }).addTo(map);
 
    // Add a marker for the user's location
    var marker = L.marker([0, 0]).addTo(map);
