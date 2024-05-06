@@ -77,3 +77,22 @@ body > header > nav > div > a{
   .east { color: green; display: none; }
   .south { color: blue; display: none; }
   .west { color: orange; display: none; }
+
+  #timeZone{
+    max-width: 32vw;
+    word-wrap: normal;
+    /* border: red solid 1px; */
+  }
+
+  /* Media query for screens smaller than or equal to 768px (commonly associated with mobile devices) */
+@media (max-width: 768px) {
+  #map > div.leaflet-control-container > div.leaflet-top.leaflet-right > div > button{
+    /* border: solid red 1px; */
+    /* z-index: 111;
+   position: absolute;
+    right: -10%; */
+    position: absolute;
+    left: -1095%;
+   
+  }
+}
